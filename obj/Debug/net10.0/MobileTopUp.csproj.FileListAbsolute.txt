@@ -1,0 +1,14 @@
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/bin/Debug/net10.0/MobileTopUp
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/bin/Debug/net10.0/MobileTopUp.deps.json
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/bin/Debug/net10.0/MobileTopUp.runtimeconfig.json
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/bin/Debug/net10.0/MobileTopUp.dll
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/bin/Debug/net10.0/MobileTopUp.pdb
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.AssemblyInfoInputs.cache
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.AssemblyInfo.cs
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.csproj.CoreCompileInputs.cache
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.dll
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/refint/MobileTopUp.dll
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.pdb
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.genruntimeconfig.cache
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/ref/MobileTopUp.dll
