@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MobileTopUp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d32b3fa0def3ed877e480eca21018958e052e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MobileTopUp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MobileTopUp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,4 @@
 /Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.pdb
 /Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.genruntimeconfig.cache
 /Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/ref/MobileTopUp.dll
+/Users/administrator/Documents/c#_projects/CodeOps/MobileTopUp/obj/Debug/net10.0/MobileTopUp.sourcelink.json
