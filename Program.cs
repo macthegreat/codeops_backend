@@ -1,12 +1,15 @@
 ﻿using System.Drawing;
-
-Console.WriteLine("###################Welcome to the Mobile Top-Up Application!########################");
+Console.BackgroundColor =ConsoleColor.DarkBlue;
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("#############################################################");
+Console.WriteLine("                       Welcome to the Mobile Top-Up Application!                              ");
+Console.WriteLine("#############################################################");
 Console.WriteLine("Please enter your Name :");
 string? name = Console.ReadLine();
 Console.WriteLine("Please choose your Mobile Network :");
 Console.WriteLine("1. Safaricom");
 Console.WriteLine("2. Ethiotel");
-string network = Console.ReadLine();
+string? network = Console.ReadLine();
 if (network != "1" && network != "2")
 {
     Console.WriteLine("Invalid network selected. Please choose either 1 or 2.");
@@ -16,7 +19,7 @@ else
 {
     network = network == "1" ? "Safaricom" : "Ethiotel";
 }
-//Console.WriteLine("Hello, " + name + "! You are on " + network + ".");
+//
 Console.WriteLine("Please enter the amount you want to top up :");
 
 decimal amount = decimal.TryParse(Console.ReadLine(), out decimal result) ? result : 0m;
@@ -26,8 +29,9 @@ decimal amount = decimal.TryParse(Console.ReadLine(), out decimal result) ? resu
         if (amount > 0 && amount <= 5000)
         {
             decimal bonus = amount <= 1000 ? amount * 0.03m : amount * 0.05m + 20;
+            Console.WriteLine("Hello, " + name + "! You are on " + network + ".");
             Console.WriteLine($"You have successfully topped up {amount:C} to your {network} account.");
-            Console.WriteLine($"You have received a bonus of {bonus:C}. Your current balance is {(amount + bonus):C}.");
+            Console.WriteLine($"You have received a bonus of {bonus:N2}. Your current balance is {(amount + bonus):N2}.");
             Console.WriteLine("Thank you for using the Mobile Top-Up Application!");
         }
         else
@@ -40,8 +44,9 @@ decimal amount = decimal.TryParse(Console.ReadLine(), out decimal result) ? resu
         if (amount > 0 && amount <= 5000)
         {
             decimal bonus = amount <= 1000 ? amount * 0.05m : amount * 0.07m + 20;
+            Console.WriteLine("Hello, " + name + "! You are on " + network + ".");
             Console.WriteLine($"You have successfully topped up {amount:C} to your {network} account.");
-            Console.WriteLine($"You have received a bonus of {bonus:C}. Your current balance is {(amount + bonus):C}.");
+            Console.WriteLine($"You have received a bonus of {bonus: N2}. Your current balance is {(amount + bonus):N2}.");
             Console.WriteLine("Thank you for using the Mobile Top-Up Application!");
         }
         else
